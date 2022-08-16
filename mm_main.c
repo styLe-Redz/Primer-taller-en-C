@@ -11,23 +11,23 @@
 
 int main (int argc, char *argv[]){
     
-    //multiplicacion();
+    multiplicacion();
 
-    //numeroDias();
+    numeroDias();
 
-    //distanciaPuntos();
+    distanciaPuntos();
 
-    //numerosNaturales();
+    numerosNaturales();
 
-    //trianguloRectangulo();
+    trianguloRectangulo();
     
-    //realizarMatriz();
+    realizarMatriz();
 
-    //numerosAleatorios();
+    numerosAleatorios();
     
-    //sumaMatrices();
+    sumaMatrices();
 
-    //restaMatrices();
+    restaMatrices();
 
     productoMatrices();
 
