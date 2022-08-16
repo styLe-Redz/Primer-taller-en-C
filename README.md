@@ -1,12 +1,13 @@
 # Primer-taller-en-C
 
-Introducción
+Introducción:
 
 Para el desarrollo de este taller hay que tener en cuenta varias herramientas las cuales serán el entorno de trabajo y en donde se ejecutarán cada una de las aplicaciones propuestas en clase. Primeramente, se dará una breve definición del lo que es el Lenguaje C, una vez con esto claro se definirá la distribución de Linux llamada Ubuntu, el cual será nuestro sistema operativo que nos ayudará a la instalación de paquetes y herramientas para el desarrollo de esta práctica.
 Con lo anterior en cuenta, C es un lenguaje de programación de propósito general que ofrece economía sintáctica, control de flujo, estructuras sencillas y un buen conjunto de operadores. Es un lenguaje de nivel medio y no está especializado en ningún tipo de aplicación.
 Por otra parte, Ubuntu es una distribución Linux basada en Debian GNU/Linux, que incluye principalmente software libre y de código abierto. Puede utilizarse en ordenadores y servidores. Está orientado al usuario promedio, con un fuerte enfoque en la facilidad de uso y en mejorar la experiencia del usuario. Está compuesto de múltiple software normalmente distribuido bajo una licencia libre o de código abierto.
 Para demostrar la funcionalidad y las herramientas que ofrecen las herramientas mencionadas anteriormente, se realizaran aplicaciones en C desde Ubuntu, para determinar su eficiencia.  
-Desarrollo
+
+Desarrollo:
 
 Para el desarrollo de este laboratorio, se hizo uso de Visual Studio Code, el cual es un entorno de desarrollo integrado (IDE). Sin embargo, en la evidencia de los resultados se muestra la compilación de cada uno de los ejercicios a través de la consola de Ubuntu. Es importante aclarar que para la elaboración de cada uno de los ejercicios NO es necesario instalar algún editor de Código.
 Teniendo lo anterior en cuenta, para el desarrollo de los ejercicios es prácticamente obligatorio instalar el compilador gcc para el lenguaje C, el cual es la base del desarrollo de este taller.
@@ -28,7 +29,7 @@ Teniendo en cuenta lo anterior, en el presente taller se utilizaron los siguient
 
 
 
-Creación Makefile
+Creación Makefile:
 
 Se elaboró un fichero Makefile. El cual será el encargado de dar las ordenes que debe ejecutar la utilidad make.
 Un fichero makefile contiene las órdenes que debe ejecutar la utilidad make, así como las dependencias entre los distintos módulos del proyecto. Este archivo de descripción es un fichero de texto.
@@ -48,13 +49,14 @@ mm_main:
 	$(GCC) $(FLAGS) -o $@ $@.o mm_lib.o $(MATHFLAG)
 clean:
 	$(RM) *.o $(PROGS)
- Conclusiones
+ 
+Conclusiones:
 
 Se concluye que el lenguaje C es muy útil ya que maneja el paradigma imperativo, funcional, lógico y orientado a objetos. A pesar de que no todos los paradigmas mencionados anteriormente fueron utilizados en esta práctica, se obtuvieron los resultados esperados y se llegó a la finalización exitosa del taller.
 Es importante mencionar la importancia de manipular las herramientas que posee Ubuntu, ya que esto nos facilita la descarga de bibliotecas, la ejecución y compilación de programas en lenguaje C, ya que existe una gran comunidad que se encarga de brindar actualizaciones con el fin de contar con las mejores herramientas para nuestro entorno de trabajo.
 
 
-Referencias
+Referencias:
 
 1.	https://cs.uns.edu.ar/~ldm/mypage/data/oc/apuntes/2019-apunte1.pdf
 2.	https://ubuntu-co.com/
